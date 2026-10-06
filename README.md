@@ -44,7 +44,7 @@ OTP-Verification-System-using-Python/
 ├── .gitignore
 └── README.md
 
-⚙️ How It Works
+##⚙️ How It Works
 1. Enter an email address.
 2. Click Generate OTP.
 3. A secure 6-digit OTP is generated.
@@ -56,7 +56,8 @@ OTP-Verification-System-using-Python/
    - OTP expiration
    - Maximum verification attempts
 8. A successful verification message is displayed.
-🔒 Security Features
+
+##🔒 Security Features
 Secure OTP Generation
 The project uses Python's secrets module to generate unpredictable OTP values.
 OTP Hashing
@@ -67,13 +68,13 @@ Attempt Limiting
 Users have a maximum of 3 verification attempts.
 Resend Protection
 A 30-second cooldown is applied before another OTP can be generated.
-🧪 Demo Mode
+## 🧪 Demo Mode
 The current version runs without an email service.
 After clicking Generate OTP, the generated OTP appears inside the application:
 Demo OTP: 123456
 
 This makes the project easy to test without exposing email passwords or API credentials.
-▶️ How to Run
+## ▶️ How to Run
 1. Clone the repository
 git clone https://github.com/TheVerma11/OTP-Verification-System-using-Python.git
 cd OTP-Verification-System-using-Python
@@ -90,12 +91,12 @@ python app.py
 - Copy the displayed Demo OTP.
 - Enter it in the OTP field.
 - Click Verify OTP.
-📦 Requirements
+## 📦 Requirements
 The project uses Python's standard library and Tkinter.
 No external packages are required for the current demo version.
 Tkinter is included with standard Python installations on Windows.
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 Possible future enhancements include:
 - Real email OTP delivery
 - Google SMTP / transactional email integration
@@ -107,10 +108,10 @@ Possible future enhancements include:
 - CAPTCHA integration
 - Rate limiting
 - Production-ready authentication backend
-👨‍💻 Author
+##👨‍💻 Author
 Rohit Verma
 Computer Science Ph.D. Research Scholar
 GitHub: TheVerma11
-📄 License
+##📄 License
 This project is created for educational and portfolio purposes.
 ```
